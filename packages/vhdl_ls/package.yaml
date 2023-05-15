@@ -11,7 +11,7 @@ categories:
 
 source:
   # renovate:datasource=github-tags
-  id: pkg:github/VHDL-LS/rust_hdl@0.64.0
+  id: pkg:github/VHDL-LS/rust_hdl@v0.64.0
   build:
     run: cargo build --release
 
