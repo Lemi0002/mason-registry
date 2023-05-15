@@ -10,11 +10,11 @@ categories:
   - LSP
 
 source:
-  id: pkg:github/VHDL-LS/rust_hdl@v0.64.0
+  id: pkg:github/VHDL-LS/rust_hdl@latest
   asset:
     - target: win_x64
       file: vhdl_ls-x86_64-pc-windows-msvc.zip
-      bin: bin/vhdl_ls.exe
+      bin: vhdl_ls-x86_64-pc-windows-msvc/bin/vhdl_ls.exe
 
 bin:
   vhdl_ls: "{{source.asset.bin}}"
