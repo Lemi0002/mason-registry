@@ -10,7 +10,7 @@ categories:
   - LSP
 
 source:
-  id: pkg:github/VHDL-LS/rust_hdl@latest
+  id: pkg:github/VHDL-LS/rust_hdl@v0.64.0
   asset:
     - target: win_x64
       file: vhdl_ls-x86_64-pc-windows-msvc.zip
