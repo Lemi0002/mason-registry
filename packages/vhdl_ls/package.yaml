@@ -10,10 +10,11 @@ categories:
   - LSP
 
 source:
-  # renovate:datasource=github-tags
   id: pkg:github/VHDL-LS/rust_hdl@v0.64.0
-  build:
-    run: cargo build --release
+  asset:
+    - target: win_x64
+      file: vhdl_ls-x86_64-pc-windows-msvc.zip
+      bin: bin/vhdl_ls.exe
 
 bin:
-  vhdl_ls: target/release
+  vhdl_ls: "{{source.asset.bin}}"
